@@ -171,7 +171,8 @@ body{
 }
 .pictures__item {
 }
-.pictures__img {
+.pictures__img img {
+   max-width: 100%;
 }
 /*================================*/
 .main__achievement {
@@ -215,6 +216,7 @@ body{
    overflow: hidden;
 }
 .item__img img{
+   max-width: 100%;
    transition: transform 0.8s;
 }
 .item__img:hover img {
